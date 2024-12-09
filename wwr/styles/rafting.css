@@ -64,6 +64,10 @@ h2 {
   font-weight: 300;
 }
 
+.adventure img {
+  max-width: 80%;
+}
+
 .sociallinks a{
   text-decoration: none;
 }
