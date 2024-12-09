@@ -4,6 +4,8 @@
   --accent1-color: #581908;
   --accent2-color: #DB3069;
   --accent3-color: #2E0E02;
+  --text-font: "Kanit", serif;
+  --header-font: "Rowdies", serif;
 }
 
 .logo {
@@ -11,8 +13,8 @@
   width: 150px;
 }
 
-#background {
-  
+body {
+  font-family: var(--text-font);
 }
 
 .title-banner {
@@ -22,15 +24,14 @@
   top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 #title {
   text-align: center;
   margin: 5px;
+  font-family: var(--header-font);
+  font-weight: 300;
 }
-
-
 
 .overlay {
   position: absolute;
@@ -40,70 +41,24 @@
   text-align: justify;
   width: 80%;
   padding-left: 10px;
-  
 }
 
 .overlay p {
   padding: 10px;
+  font-size: small;
+  
 }
 
 .overlay img{
   float: right;
   margin: 30px;
-  
 }
 
-image{
-  
+h2 {
+  font-family: var(--header-font);
+  font-weight: 300;
 }
 
-.history {
-  
-}
-
-
-
-
-
-.sociallinks img {
-  width: 50px;
-  height: 50px;
+.sociallinks a{
   text-decoration: none;
 }
-
-/* .rowdies-light {
-  font-family: "Rowdies", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.rowdies-regular {
-  font-family: "Rowdies", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.rowdies-bold {
-  font-family: "Rowdies", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.kanit-light {
-  font-family: "Kanit", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.kanit-regular {
-  font-family: "Kanit", serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-
-
-
-
-
-
-
