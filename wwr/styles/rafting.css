@@ -8,6 +8,31 @@
   --header-font: "Rowdies", serif;
 }
 
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.pagelinks {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  width: 290px;
+  height: 1.5rem;
+  align-items: center;
+}
+
+.directions {
+  background-color: lightgray;
+  padding: 3px;
+  width: 65px;
+  height: 1rem;
+  font-size: x-small;
+  text-align: center;
+}
+
 .logo {
   height: 150px;
   width: 150px;
@@ -59,19 +84,82 @@ body {
   max-width: 150px;
 }
 
+.history-container{
+  background-color: var(--primary-color);
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding-top: 30px;
+  display: flex;
+}
+
+#history {
+  position: absolute;
+  z-index: 1;
+  align-self: center;
+  top: -7%;
+}
+
+.history-container img {
+  max-width: 150px;
+}
+
+.history-container p{
+  font-size: smaller;
+  text-align: left;
+  max-width: 150px;
+  
+  
+}
+
 h2 {
   font-family: var(--header-font);
   font-weight: 300;
 }
 
-.adventure img {
-  max-width: 80%;
+.adventure{
+  background-color: #28536B;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding: 20px;
+  align-items: flex-end;
+  padding-top: 50px;
+  margin: 10px;
 }
+
+.adventure h2{
+  position: absolute;
+  top: -5%;
+}
+
+.adventure img {
+  max-width: 100px;
+  
+}
+
+.adventure p{
+  text-align: center;
+  font-size: smaller;
+}
+
+.footer-container{
+  background-color: #581908;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around;
+}
+
+.footer-container p{
+  position: absolute;
+}  
 
 .sociallinks a{
   text-decoration: none;
+  z-index: 100;
 }
 
 .sociallinks img {
-  width: 10%;
+  width: 7%;
 }
