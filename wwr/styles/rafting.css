@@ -118,19 +118,22 @@ h2 {
 }
 
 .adventure{
-  background-color: #28536B;
-  display: flex;
-  justify-content: space-around;
   position: relative;
-  padding: 20px;
-  align-items: flex-end;
+  display: grid;
+  grid-template-columns: repeat(5,1rem);
+  background-color: #28536B;
+  justify-content: space-around;
+  align-items: center;
   padding-top: 50px;
   margin: 10px;
+  
+  
 }
 
 .adventure h2{
-  position: absolute;
   top: -5%;
+  position: absolute;
+  transform: translate(70%, 10%);
 }
 
 .adventure img {
@@ -138,9 +141,9 @@ h2 {
   
 }
 
-.adventure p{
-  text-align: center;
-  font-size: smaller;
+.adventure figcaption{
+  font-size: x-small;
+  text-wrap: nowrap;
 }
 
 .footer-container{
