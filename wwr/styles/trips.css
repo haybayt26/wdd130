@@ -53,10 +53,22 @@ h2 {
   font-weight: 300;
 }
 
+.contact {
+  background-color: #7EA8BE;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact a{
+  padding: 3px;
+}
+
 .adventure-container{
   display: flex;
   position: relative;
-  background-color: #28546b5c;
+  background-color: #58190851;
   width: 103%;
 }
 
