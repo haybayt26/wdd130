@@ -1,0 +1,168 @@
+:root {
+  --primary-color: #7EA8BE;
+  --secondary-color: #28536B;
+  --accent1-color: #581908;
+  --accent2-color: #DB3069;
+  --accent3-color: #2E0E02;
+  --text-font: "Kanit", serif;
+  --header-font: "Rowdies", serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.pagelinks {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  width: 290px;
+  height: 1.5rem;
+  align-items: center;
+}
+
+.directions {
+  background-color: lightgray;
+  padding: 3px;
+  width: 65px;
+  height: 1rem;
+  font-size: x-small;
+  text-align: center;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+body {
+  font-family: var(--text-font);
+}
+
+#background {
+  width: 100%;
+}
+
+.title-banner {
+  position: absolute;
+  background-color: rgba(46, 14, 2, 0.6);
+  width: 100%;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#title {
+  text-align: center;
+  margin: 5px;
+  font-family: var(--header-font);
+  font-weight: 300;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(40, 83, 107, 0.75);
+  top: 50%;
+  left: 7%;
+  text-align: justify;
+  width: 80%;
+  padding-left: 10px;
+}
+
+.overlay p {
+  padding: 10px;
+  font-size: small;
+  
+}
+
+.overlay img{
+  float: right;
+  margin: 30px;
+  max-width: 150px;
+}
+
+.history-container{
+  background-color: var(--primary-color);
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding-top: 30px;
+  display: flex;
+}
+
+#history {
+  position: absolute;
+  z-index: 1;
+  align-self: center;
+  top: -7%;
+}
+
+.history-container img {
+  max-width: 150px;
+}
+
+.history-container p{
+  font-size: smaller;
+  text-align: left;
+  max-width: 150px;
+  
+  
+}
+
+h2 {
+  font-family: var(--header-font);
+  font-weight: 300;
+}
+
+.adventure{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5,1rem);
+  background-color: #28536B;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  margin: 10px;
+  
+  
+}
+
+.adventure h2{
+  top: -5%;
+  position: absolute;
+  transform: translate(70%, 10%);
+}
+
+.adventure img {
+  max-width: 100px;
+  
+}
+
+.adventure figcaption{
+  font-size: x-small;
+  text-wrap: nowrap;
+}
+
+.footer-container{
+  background-color: #581908;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around;
+}
+
+.footer-container p{
+  position: absolute;
+}  
+
+.sociallinks a{
+  text-decoration: none;
+  z-index: 100;
+}
+
+.sociallinks img {
+  width: 7%;
+}
