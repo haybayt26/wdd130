@@ -61,7 +61,6 @@ fieldset {
   display: flex;
   position: relative;
   background-color: #28546b76;
-  max-width: auto;
 }
 
 .adventure-container img{
