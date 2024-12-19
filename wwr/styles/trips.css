@@ -10,9 +10,8 @@
 
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  
 }
 
 .pagelinks {
@@ -42,74 +41,11 @@ body {
   font-family: var(--text-font);
 }
 
-#background {
-  width: 100%;
-}
-
-.title-banner {
-  position: absolute;
-  background-color: rgba(46, 14, 2, 0.6);
-  width: 100%;
-  top: 37%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#title {
+h1 {
   text-align: center;
   margin: 5px;
   font-family: var(--header-font);
   font-weight: 300;
-}
-
-.overlay {
-  position: absolute;
-  background-color: rgba(40, 83, 107, 0.75);
-  top: 50%;
-  left: 7%;
-  text-align: justify;
-  width: 80%;
-  padding-left: 10px;
-}
-
-.overlay p {
-  padding: 10px;
-  font-size: small;
-  
-}
-
-.overlay img{
-  float: right;
-  margin: 30px;
-  max-width: 150px;
-}
-
-.history-container{
-  background-color: var(--primary-color);
-  justify-content: space-around;
-  align-items: center;
-  position: relative;
-  padding-top: 30px;
-  display: flex;
-}
-
-#history {
-  position: absolute;
-  z-index: 1;
-  align-self: center;
-  top: -7%;
-}
-
-.history-container img {
-  max-width: 150px;
-}
-
-.history-container p{
-  font-size: smaller;
-  text-align: left;
-  max-width: 150px;
-  
-  
 }
 
 h2 {
@@ -117,37 +53,72 @@ h2 {
   font-weight: 300;
 }
 
-.adventure{
+.adventure-container{
+  display: flex;
   position: relative;
-  display: grid;
-  grid-template-columns: repeat(5,1rem);
-  background-color: #28536B;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 50px;
-  margin: 10px;
-  
-  
+  background-color: #28546b5c;
+  width: 103%;
 }
 
-.adventure h2{
-  top: -5%;
+.trip {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.trip-title{
   position: absolute;
-  transform: translate(70%, 10%);
 }
 
-.adventure img {
-  max-width: 100px;
-  
+.trip p{
+  text-wrap: wrap;
+  width: 90%;
+  text-align: center;
 }
 
-.adventure figcaption{
-  font-size: x-small;
-  text-wrap: nowrap;
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 100%;
 }
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
 
 .footer-container{
-  background-color: #581908;
+  background-color: #581908a3;
   display: flex;
   flex-wrap: wrap;
   position: relative;
