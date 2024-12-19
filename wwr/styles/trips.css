@@ -50,7 +50,7 @@ body {
   position: absolute;
   background-color: rgba(46, 14, 2, 0.6);
   width: 100%;
-  top: 32%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -65,15 +65,15 @@ body {
 .overlay {
   position: absolute;
   background-color: rgba(40, 83, 107, 0.75);
-  top: 40%;
+  top: 50%;
   left: 7%;
-  text-align: center;
+  text-align: justify;
   width: 80%;
-  max-height: 25%;
   padding-left: 10px;
 }
 
 .overlay p {
+  padding: 10px;
   font-size: small;
   
 }
@@ -144,8 +144,6 @@ h2 {
 .adventure figcaption{
   font-size: x-small;
   text-wrap: nowrap;
-  
-  
 }
 
 .footer-container{
