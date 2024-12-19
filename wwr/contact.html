@@ -34,23 +34,44 @@
                 </div>
              </section>
 
-             <section>
-                <h2 class="adventure">Employee Testimonials</h2>
-                <figure id="img1">
-                    <img src="images/rafting1.jpg" alt="White Rapid">
-                    <figcaption>Rock Canyon</figcaption>
-                </figure>
-                <figure id="img2">
-                    <img src="images/rafting2.jpg" alt="Colorado River">
-                    <figcaption>Colorado River</figcaption>
-                </figure>
-                <figure id="img3">
-                    <img src="images/rafting3.jpg" alt="Red Boat">
-                    <figcaption>Red Team</figcaption>
-                </figure>
+             <section class="adventure-container">
+                <div class="trip">   
+                    <img src="images/rafting5.jpg" alt="Rafting Gear">
+                    <p class="testimony">
+                        "This company is so cute and all of our kids had a blast. We felt safe and had such a family bonding experience." - Karen
+                    </p>
+                </div>
+                <div class="trip">    
+                    <img src="images/rafting5.jpg" alt="Rafting Gear">
+                    <p class="testimony">
+                        "This company is so cute and all of our kids had a blast. We felt safe and had such a family bonding experience." - Karen
+                    </p>
+                </div>
+                <div class="trip">
+                    <img src="images/rafting5.jpg" alt="Rafting Gear">
+                    <p class="testimony">
+                        "This company is so cute and all of our kids had a blast. We felt safe and had such a family bonding experience." - Karen
+                    </p>
+                </div>
+            </section>
 
                 <section>
-                    <p>INPPUUUUUUTTTT</p>
+                    <form>
+                        <fieldset>
+                            <legend>Send Us a Message</legend>
+                            <label for="fullname">Full Name: <input type="text" id="fullname" name="fullname"> </label>
+                            <label for="email">Email: <input type="email" id="email" name="email"> </label>
+                            <label for="purpose">Purpose of Message</label>
+                            <select id="purpose" name="browser">
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Reservation Question">Reservation Question</option>
+                                <option value="Website Suggestion">Website Suggest</option>
+                            </select>
+                            <label for="message">Type your message <textarea id="message" name="message" rows="4" placeholder="Your website is great!"></textarea></label>
+                            <label for="subscribe">Subscribe to newsletter? <input type="checkbox" id="subscribe" name="subscribe"></label>
+                            <button type="send">Send</button>
+                        </fieldset>
+                    </form>>
                 </section>
             </section>
         </main>

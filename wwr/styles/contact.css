@@ -32,6 +32,13 @@
   text-align: center;
 }
 
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   height: 150px;
   width: 150px;
@@ -46,37 +53,39 @@ body {
   font-family: var(--text-font);
 }
 
-#map{
-  
+fieldset {
+  max-width: 200px;
 }
 
-.adventure{
+.adventure-container{
+  display: flex;
   position: relative;
-  display: grid;
-  grid-template-columns: repeat(5,1rem);
-  background-color: #28536B;
-  justify-content: space-around;
+  background-color: #28546b76;
+  max-width: auto;
+}
+
+.adventure-container img{
+  max-width: 150px;
+}
+
+.testimony {
+  font-style: italic;
+}
+
+.trip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding-top: 50px;
-  margin: 10px;
-  
-  
+  padding: 10px;
+  border: 1px solid black;
+  max-width: 500px;
 }
 
-.adventure h2{
-  top: -5%;
-  position: absolute;
-  transform: translate(70%, 10%);
-}
-
-.adventure img {
-  max-width: 100px;
-  
-}
-
-.adventure figcaption{
-  font-size: x-small;
-  text-wrap: nowrap;
+.trip p{
+  text-wrap: wrap;
+  width: 90%;
+  text-align: center;
 }
 
 .footer-container{
