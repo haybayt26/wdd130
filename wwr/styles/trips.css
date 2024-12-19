@@ -79,12 +79,17 @@ h2 {
 
 .trip-title{
   position: absolute;
+  color: white;
 }
 
 .trip p{
   text-wrap: wrap;
   width: 90%;
   text-align: center;
+}
+
+.trip img{
+  max-width: 350px;
 }
 
 table {
